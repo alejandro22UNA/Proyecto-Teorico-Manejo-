@@ -1,0 +1,40 @@
+<!--
+  Generated template for the ConfigurarExamenPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content padding>
+
+  <h3>Configurar Prueba</h3>
+  <ion-list>
+      <p>Cantidad de Preguntas: {{CantidadPreguntas}}</p>
+      <ion-item>
+        
+          <ion-range min="10" max="30" [(ngModel)]="CantidadPreguntas" step="5" color="secondary">
+            <ion-label range-left>10</ion-label>
+            <ion-label range-right>30</ion-label>
+          </ion-range>
+        </ion-item>
+        <p>Cantidad de Segundos: {{CantidadSegundos}}</p>
+        <ion-item>
+            <ion-range min="15" max="60" [(ngModel)]="CantidadSegundos" step="5" color="secondary">
+              <ion-label range-left>15</ion-label>
+              <ion-label range-right>60</ion-label>
+            </ion-range>
+        </ion-item>
+        <ion-item>
+            <ion-label>Dificultad</ion-label>
+            <ion-select [(ngModel)]="Dificultad">
+              <ion-option value="facil">Facil</ion-option>
+              <ion-option value="medio">Medio</ion-option>
+              <ion-option value="dificil">Dificil</ion-option>
+            </ion-select>
+          </ion-item>
+          <br><br>
+          <button ion-button color="secondary">Comenzar Ahora</button>
+  </ion-list>
+
+</ion-content>

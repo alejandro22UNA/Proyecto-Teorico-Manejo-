@@ -1,0 +1,29 @@
+
+<ion-content padding>
+  <h3> Teorico Manejo</h3>
+  <ion-row align-items-center> 
+    <img src="../../assets/icon/driver.png" alt="" srcset="" class="img_login">
+  </ion-row>
+  
+    <ion-list inset> 
+        <ion-item>
+          <ion-label floating>Usuario</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      
+    </ion-list>
+  <button ion-button (click)='login()' class="login">LOGIN</button>
+  <button ion-button clear (click)='OlvidePassword()' class="OlvidePassword">Olvide mi Contrasena</button>
+  <button ion-button clear (click)='registrarme()' class="OlvidePassword">Registrarme</button>
+  <div class="icons">
+  <ion-icon name="logo-facebook"></ion-icon>
+  <ion-icon name="logo-googleplus"></ion-icon>
+  </div>
+ 
+</ion-content>
+

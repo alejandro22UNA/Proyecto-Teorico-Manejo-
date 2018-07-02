@@ -1,3 +1,22 @@
 page-home {
-
+ion-card-header{
+    font-weight: bold;
+}
+button span{
+    color: green;
+}
+ion-card{
+    margin-bottom: 5px;
+}
+.color_card{
+    background-color: #f5f5f5;
+}
+ .img_home{
+     height: 270px;
+     width: 100%;
+ }
+ .card{
+     width: 100%;
+     margin: 0;
+ }
 }

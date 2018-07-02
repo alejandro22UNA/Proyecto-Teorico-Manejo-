@@ -1,0 +1,23 @@
+page-cuenta {
+
+    h3, h4  {
+        text-align: center;
+    }
+    div .img_login{
+        align-content: center;
+        margin: 0 auto;
+    }
+    .row_img{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+    }
+    ion-icon{
+        display: block;
+        font-size: 2.8em;
+        text-align: center;
+        color: red;
+    }
+    p{
+        text-align: center;
+    }
+}

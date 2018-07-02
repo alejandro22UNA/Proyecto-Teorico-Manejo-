@@ -1,17 +1,50 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content>
+  <div>
+      <img src="../../assets/icon/168.jpg" alt="" srcset="" class="img_home">
+  </div>
+  <ion-card>
+      <ion-card-header>
+        Examen Practico por Capitulo
+      </ion-card-header>
+    
+      <ion-card-content>
+        <p>Test con seleccion de capitulos y  diferentes dificultades ademas de configuracion de tiempo.</p>
+      </ion-card-content>
+      <button ion-button clear (click)='ExamenPorCapitulo()'>Empezar</button>
+    </ion-card>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+    <ion-card class="color_card">
+        <ion-card-header>
+          Examen Practico Todos los Capitulos
+        </ion-card-header>
+      
+        <ion-card-content>
+          <p>Test con todos los capitulos incluidos y  diferentes dificultades ademas de configuracion de tiempo.</p>
+        </ion-card-content>
+        <button ion-button clear (click)='ExamenTodosLosCapitulos()'>Empezar</button>
+      </ion-card>
+
+      <ion-card >
+          <ion-card-header>
+            Resumenes Por Capitulo
+          </ion-card-header>
+        
+          <ion-card-content>
+            <p>Repasa los capitulos a tu eleccion con temas importantes de cada capitulo</p>
+          </ion-card-content>
+          <button ion-button clear>Repasar</button>
+        </ion-card>
+
+        <ion-card class="color_card">
+            <ion-card-header>
+              Mis Estadisticas
+            </ion-card-header>
+          
+            <ion-card-content>
+              <p>Observa tu avanze y ademas descubre cuales son los capitulos que te resultan mas dificil</p>
+            </ion-card-content>
+            <button ion-button clear (click)='historial()'>Ver</button>
+          </ion-card>
 </ion-content>
+
+

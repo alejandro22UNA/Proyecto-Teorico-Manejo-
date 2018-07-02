@@ -7,9 +7,14 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-
+import { LoginPage } from '../pages/login/login';
+import {CuentaPage} from '../pages/cuenta/cuenta';
+import { HistorialPage } from '../pages/historial/historial';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { RegistroPage } from '../pages/registro/registro';
+import { ListaCapitulosPage } from '../pages/lista-capitulos/lista-capitulos';
+import { ConfigurarExamenPage } from '../pages/configurar-examen/configurar-examen';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,LoginPage,CuentaPage,HistorialPage,RegistroPage, ListaCapitulosPage, ConfigurarExamenPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,CuentaPage, HistorialPage,RegistroPage, ListaCapitulosPage,ConfigurarExamenPage
   ],
   providers: [
     StatusBar,
